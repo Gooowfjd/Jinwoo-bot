@@ -4,7 +4,7 @@
 
 > Your soft-hearted WhatsApp companion — simple, friendly, and capable of handling fun, productivity, and anime-style features in one place.
 
----
+--
 
 ## 🩷 Overview  
 
