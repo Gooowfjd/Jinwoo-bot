@@ -1,52 +1,46 @@
-
 {
-    "bot-name": "Jinwoo-bot",
-    "description": "JINWOO made for people on Earth By Malvin King",
-    "logo": "https://files.catbox.moe/bqs70b.jpg",
-    "keywords": ["bot"],
-    "documentation-link": "https://malvin-pair-code-xzcb.onrender.com",
-    "owner-verification":"malvink002@gmail.com",
-  
-"env": {
-      "SESSION_ID": {
-        "description": "Put your SESSION_ID here. Make sure it starts with MALVIN-XD~, or get session id from here, https://github.com/kingmalvn/Jinwoo-bot",
-        "value":"",
-        "required": true
-        
-        },
+  "bot-name": "COZY bot",
+  "description": "COZY Bot — a soft, friendly, and playful companion for everyone on Earth, by Cozy 🧸",
+  "logo": "https://files.catbox.moe/bqs70b.jpg",
+  "keywords": ["bot", "cute", "friendly", "soft", "aesthetic", "playful"],
+  "documentation-link": "https://malvin-pair-code-xzcb.onrender.com",
+  "owner-verification": "malvink002@gmail.com",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put your SESSION_ID here. Must start with MALVIN-XD~, or get it from: https://github.com/kingmalvn/Jinwoo-bot",
+      "value": "",
+      "required": true
+    },
     "OWNER_NUMBER": {
-      "description": "Enter your number here, starting with country code E.g 2637xxxxxxxx",
+      "description": "Enter your phone number with country code (e.g., 2637xxxxxxxx)",
       "value": "",
       "required": true
     },
     "OWNER_NAME": {
-      "description": "Enter your name here",
-      "value": "",
+      "description": "Enter your name",
+      "value": "Cozy",
       "required": true
     },
     "STICKER_PACK_NAME": {
-      "description": "Sticker pack name",
-      "value": "Jin",
+      "description": "Sticker pack name (cute and aesthetic!)",
+      "value": "COZY",
       "required": true
     },
     "STICKER_AUTHOR_NAME": {
       "description": "Sticker author name",
-      "value": "Jinwoo",
+      "value": "Cozy",
       "required": true
- 
     },
     "TIMEZONE": {
-      "description": "Enter your timezone here. Google or don't edit if you don't know!",
+      "description": "Enter your timezone. Google if unsure, or leave default.",
       "value": "Africa/Nairobi",
       "required": false
     },
-   "GITHUB_TOKEN": {
-  "description": "IMPORTANT: Follow these steps to generate your GitHub token correctly(Bot will not save settings without it!). Go to https://github.com/settings/tokens, select 'Tokens (classic)', then tap 'Generate new token' and select 'Generate new token (classic)'. Enter any note, choose 'No expiration', and under 'Select scopes', tick 'repo'. Scroll down, generate the token, and copy it. Paste it here. If using a single token for multiple bots, change the owner number to avoid settings mixups.",
-  "value": "",
-  "required": false
-        
-        
-      }
+    "GITHUB_TOKEN": {
+      "description": "IMPORTANT: Generate your GitHub token correctly. Go to https://github.com/settings/tokens, select 'Tokens (classic)', click 'Generate new token', give a note, choose 'No expiration', and select 'repo' scope. Copy it here. If using a single token for multiple bots, change the owner number to avoid mixups.",
+      "value": "",
+      "required": false
     }
-  
-  }  
+  }
+}
